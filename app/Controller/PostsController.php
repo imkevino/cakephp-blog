@@ -3,11 +3,11 @@ class PostsController extends AppController {
 		
 	public $helpers = array('Html', 'Form', 'Flash', 'Js');
 	
-public $helpers = array('Html', 'Form', 'Flash', 'Js');
-public $components = array('Flash','RequestHandler');
-public function index() {
-	$this->set('posts', $this->Post->find('all'));
-		}
+	public $components = array('Flash','RequestHandler');
+				}
+		$this->set('posts', $this->Post->find('all'));
+	public function index() {
+
 
 	public function view($id) {
 		if (!$id) {
@@ -31,42 +31,122 @@ public function index() {
 		}
 	}
 
-public function edit($id = null) {
-		if (!$id) {
-			throw new NotFoundException(__('Invalid post'));
-		}
-	$post = $this->Post->findById($id);
-		if (!$post) {
-			throw new NotFoundException(__('Invalid post'));
-		}
-		if ($this->request->is(array('post', 'put'))) {
-			$this->Post->id = $id;
-				if ($this->Post->save($this->request->data)) {
-				$this->Flash->success(__('Your post has been updated.'));
-				return $this->redirect(array('action' => 'index'));
+	public function edit($id = null) {
+			if (!$id) {
+				throw new NotFoundException(__('Invalid post'));
 			}
-		$this->Flash->error(__('Unable to update your post.'));
-}
+		$post = $this->Post->findById($id);
+			if (!$post) {
+				throw new NotFoundException(__('Invalid post'));
+			}
+			if ($this->request->is(array('post', 'put'))) {
+				$this->Post->id = $id;
+					if ($this->Post->save($this->request->data)) {
+					$this->Flash->success(__('Your post has been updated.'));
+					return $this->redirect(array('action' => 'index'));
+				}
+			$this->Flash->error(__('Unable to update your post.'));
+	}
 
-if (!$this->request->data) {
-	$this->request->data = $post;
+	if (!$this->request->data) {
+		$this->request->data = $post;
+		}
+	}
+
+	public function delete($id) {
+		if ($this->request->is('get')) {
+		throw new MethodNotAllowedException();
+		}
+			if ($this->Post->delete($id)) {
+			$this->Flash->success(
+			__('The post with id: %s has been deleted.', h($id))
+		);
+
+	} else {
+		$this->Flash->error(
+		__('The post with id: %s could not be deleted.', h($id))
+		);
+	}
+	return $this->redirect(array('action' => 'index'));
 	}
 }
 
-public function delete($id) {
-	if ($this->request->is('get')) {
-	throw new MethodNotAllowedException();
-	}
-		if ($this->Post->delete($id)) {
-		$this->Flash->success(
-		__('The post with id: %s has been deleted.', h($id))
-	);
+<<<<<<< Local Changes
+	class PostsController extends AppController {
+		
+=======
+class PostsController extends AppController {
+			
+>>>>>>> External Changes
+		public $helpers = array('Html', 'Form', 'Flash', 'Js');
+		
+		public $components = array('Flash','RequestHandler');
+		
+		public function index() {
+			$this->set('posts', $this->Post->find('all'));
+				}
 
-} else {
-	$this->Flash->error(
-	__('The post with id: %s could not be deleted.', h($id))
-	);
-}
-return $this->redirect(array('action' => 'index'));
-}
-}
+		public function view($id) 
+		{
+			if (!$id) {
+				throw new NotFoundException(__('Invalid post'));
+			}
+		$post = $this->Post->findById($id);
+			if (!$post) {
+			throw new NotFoundException(__('Invalid post'));
+			}
+			$this->set('post', $post);
+			}
+
+		public function add() 
+		{
+			if ($this->request->is('post')) {
+			$this->Post->create();
+				if ($this->Post->save($this->request->data)) {
+				$this->Flash->success(__('Your post has been saved.'));
+			return $this->redirect(array('action' => 'index'));
+				}
+			$this->Flash->error(__('Unable to add your post.'));
+			}
+		}
+
+		public function edit($id = null) {
+				if (!$id) {
+					throw new NotFoundException(__('Invalid post'));
+				}
+				$post = $this->Post->findById($id);
+				if (!$post) {
+					throw new NotFoundException(__('Invalid post'));
+				}
+				if ($this->request->is(array('post', 'put'))) {
+					$this->Post->id = $id;
+					if ($this->Post->save($this->request->data)) {
+						$this->Flash->success(__('Your post has been updated.'));
+						return $this->redirect(array('action' => 'index'));
+					}
+				$this->Flash->error(__('Unable to update your post.'));
+		}
+
+		if (!$this->request->data) 
+		{
+			$this->request->data = $post;
+			}
+		}
+
+	public function delete($id) {
+		if ($this->request->is('get')) {
+		throw new MethodNotAllowedException();
+		}
+			if ($this->Post->delete($id)) {
+			$this->Flash->success(
+			__('The post with id: %s has been deleted.', h($id))
+		);
+
+	} else {
+		$this->Flash->error(
+		__('The post with id: %s could not be deleted.', h($id))
+		);
+	}
+	return $this->redirect(array('action' => 'index'));
+	}
+	}
