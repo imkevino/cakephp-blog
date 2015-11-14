@@ -1,0 +1,433 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"re",
+				"repeat"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"b",
+				"bs3-col	bs3-col"
+			],
+			[
+				"bs3",
+				"bs3-row	bs3-row"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"fi",
+				"function"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"ani",
+				"animation-complete"
+			],
+			[
+				"obje",
+				"objectoffsetTop"
+			],
+			[
+				"ob",
+				"objectoffsetTop"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"i",
+				"image:responsive	responsive"
+			],
+			[
+				"win",
+				"windowScrollPosTop"
+			],
+			[
+				"window",
+				"windowHeight"
+			],
+			[
+				"w",
+				"window"
+			],
+			[
+				"text-d",
+				"text-decoration"
+			],
+			[
+				"back",
+				"background-clip"
+			],
+			[
+				"backgr",
+				"background-clip"
+			],
+			[
+				"scr",
+				"script	Tag"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"sty",
+				"border-bottom-style"
+			],
+			[
+				"backg",
+				"background-clip"
+			],
+			[
+				"colo",
+				"color"
+			],
+			[
+				"color",
+				"background-color"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"sa",
+				"sans-serif"
+			],
+			[
+				"fonts",
+				"font-size"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "bs3 col",
+		"selected_items":
+		[
+			[
+				"bs3 col",
+				"Snippet: bs3-col-12"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"brack",
+				"Preferences: BracketGuard Settings - Default"
+			],
+			[
+				"bs",
+				"Snippet: bs3-navbar-static-top"
+			],
+			[
+				"toggle",
+				"View: Toggle Status Bar"
+			],
+			[
+				"visua",
+				"View: Toggle Status Bar"
+			],
+			[
+				"com",
+				"File: Copy Name"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"colour",
+				"Tweak Colorcode to current color scheme"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"hex",
+				"Emmet: Evaluate Math Expression"
+			],
+			[
+				"htn",
+				"Set Syntax: HTML (Erlang)"
+			],
+			[
+				"bs3",
+				"Snippet: bs3-jumbotron"
+			],
+			[
+				"snipp",
+				"Snippet: .snippet"
+			],
+			[
+				"bs3 ",
+				"Snippet: bs3-thumbnail"
+			],
+			[
+				"fake",
+				"Snippet: fakeimg"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"img",
+				"Package Control: List Unmanaged Packages"
+			],
+			[
+				"lore",
+				"LoremIpsum: (200) stick shake"
+			],
+			[
+				"col",
+				"Snippet: bs3-col-12"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"BS3",
+				"Snippet: bs3-image"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/davidrew/Library/Application Support/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/Applications/MAMP/htdocs/cakephp-2.7.5/cake.sql",
+		"/Users/davidrew/Code/Projects/Bootstrap Project/css/style.css",
+		"/Users/davidrew/Code/Projects/Bootstrap Project/recover.html",
+		"/Users/davidrew/Code/Projects/Bootstrap Project/tex.css",
+		"/Applications/MAMP/htdocs/jquery/index.html",
+		"/Applications/MAMP/htdocs/KEEPOUT2/phpinfo.php",
+		"/Applications/MAMP/htdocs/jquery/screen.css",
+		"/Users/davidrew/Desktop/backbone/underscore.js",
+		"/Users/davidrew/Desktop/backbone/main.js",
+		"/Users/davidrew/Desktop/backbone/index.html",
+		"/Users/davidrew/Desktop/backbone/backbone.js",
+		"/Applications/MAMP/htdocs/wild/index.html",
+		"/Applications/MAMP/htdocs/jquery/js/lib.js",
+		"/Applications/MAMP/htdocs/jquery/js/java.js",
+		"/Applications/MAMP/htdocs/jquery/js/jquery.roundimgae.js",
+		"/Users/davidrew/Library/Application Support/Sublime Text 3/Packages/BracketGuard/BracketGuard.sublime-settings",
+		"/Users/davidrew/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/Applications/MAMP/htdocs/wild/css/style.css",
+		"/Applications/MAMP/htdocs/wild/sass/style.sass",
+		"/Applications/MAMP/htdocs/wild/css/normalize.css",
+		"/Applications/MAMP/htdocs/wild/style.sass.css",
+		"/Users/davidrew/Downloads/wild/index.html",
+		"/Users/davidrew/Downloads/wild/style.css",
+		"/Users/davidrew/Downloads/bootstrap-3.3.5-dist 2/recover.html",
+		"/Users/davidrew/Downloads/bootstrap-3.3.5-dist 2/css/style.css",
+		"/Users/davidrew/Downloads/bootstrap-3.3.5-dist 2/jquery(animation)/index.html",
+		"/Users/davidrew/Downloads/bootstrap-3.3.5-dist 2/css/bootstrap.css",
+		"/Users/davidrew/Downloads/bootstrap-3.3.5-dist 2/css/bootstrap-theme.css",
+		"/Applications/MAMP/htdocs/newproject/recover.html",
+		"/Applications/MAMP/htdocs/newproject/docs/examples/jumbotron/index.html",
+		"/Users/davidrew/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/davidrew/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Applications/MAMP/htdocs/newproject/docs/css.html",
+		"/Applications/MAMP/htdocs/[app_name]/composer.json",
+		"/Users/davidrew/Downloads/angled-edge-pseudo-element-sass-mixin/svgtext.html",
+		"/Users/davidrew/Downloads/PageTransitions/js/pagetransitions.js",
+		"/Users/davidrew/Downloads/PageTransitions/js/modernizr.custom.js",
+		"/Users/davidrew/Downloads/PageTransitions/index.html",
+		"/Users/davidrew/Downloads/angled-edge-pseudo-element-sass-mixin/index.html",
+		"/Users/davidrew/Downloads/angled-edge-pseudo-element-sass-mixin/css/style.css"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"hero",
+			"width",
+			"width\\",
+			"width",
+			"side",
+			"li",
+			"\n		",
+			"title",
+			"html4s",
+			"p",
+			"#eee",
+			"container",
+			"containwe",
+			"col",
+			"        \n",
+			"zizaco"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

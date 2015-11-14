@@ -1,0 +1,418 @@
+body
+{
+	background-image: url("../img/bg_tile.jpg");
+ 	background-repeat: repeat;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+	.container img
+	{
+		width:900px;
+	}
+	.tablecontainer
+	{
+		width:900px;
+		padding:25px;
+	}
+	
+
+
+	.question
+	{
+		color:#efefef;
+		font-family: helvetica;
+		font-size: 18px;
+		float: left;
+		padding-left:0px;
+		padding-bottom:10px;
+	
+	}
+
+	h1
+	{
+		font-family: 'Montserrat', sans-serif;
+		font-size:60px;
+		color:#2e2e2e;
+	}
+
+	.question p
+	{
+		font-size:20px;
+		font-family: 'Open Sans', helvetica;
+		color: white;
+
+	}
+	.postlink
+	{
+		    left: 40px;
+	}
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	.container img
+	{
+		width:800px;
+		margin-left:40px;
+	}
+	.tablecontainer
+	{
+		width:900px;
+		padding:25px;
+	}
+	
+
+
+	.question
+	{
+		color:#efefef;
+		font-family: helvetica;
+		font-size: 18px;
+		float: left;
+		padding-left:0px;
+		padding-bottom:10px;
+	
+	}
+
+	h1
+	{
+		font-family: 'Montserrat', sans-serif;
+		font-size:60px;
+		color:#2e2e2e;
+	}
+
+	.question p
+	{
+		font-size:20px;
+		font-family: 'Open Sans', helvetica;
+	
+	}
+	.postlink
+	{
+		    left: 40px;
+	}
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.container img
+	{
+		width:800px;
+		margin-left:20px;
+	}
+	.tablecontainer
+	{
+		width:800px;
+	}
+	button
+	{
+	padding:2px;	
+	}
+
+	.question
+	{
+		color:#efefef;
+		font-family: helvetica;
+		font-size: 18px;
+		float: left;
+		padding: 15px 10px 10px 8px;
+	
+	}
+
+	h1
+	{
+		font-family: 'Montserrat', sans-serif;
+		font-size:60px;
+		color:#2e2e2e;
+	}
+
+	.question p
+	{
+		font-size:13px;
+		font-family: 'Open Sans', helvetica;
+	
+	}
+	.postlink
+	{
+		left: 21px;
+		    top: 7px;
+	   
+	}
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 647px) {
+	 .container img
+	{
+		width:556px;
+	}
+	.tablecontainer
+	{
+		width:483px;
+		margin-left:25px;
+	}
+	
+	.navbar-brand {
+	
+		height: 81px;
+	}
+	
+	button
+	{
+	padding:2px;	
+	}
+
+	.question
+	{
+		color:#efefef;
+		font-family: helvetica;
+		font-size: 18px;
+		float: left;
+		padding: 15px 10px 10px 8px;
+	
+	}
+
+	h1
+	{
+		font-family: 'Montserrat', sans-serif;
+		font-size:60px;
+		color:#2e2e2e;
+	}
+
+	.question p
+	{
+		font-size:13px;
+		font-family: 'Open Sans', helvetica;
+	
+	}
+	.postlink
+	{
+		left: 21px;
+		    top: 7px;
+	   
+	}
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+ .container img
+{
+	width:390px;
+}
+.tablecontainer
+{
+	width:364px;
+	margin:7px;
+}
+.navbar-brand {
+	
+	height: 81px;
+}
+button
+{
+padding:2px;	
+}
+
+.question
+{
+	color:#efefef;
+	font-family: helvetica;
+	font-size: 18px;
+	float: left;
+	padding: 15px 10px 10px 8px;
+	
+}
+
+h1
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size:60px;
+	color:#2e2e2e;
+}
+
+.question p
+{
+	font-size:13px;
+	font-family: 'Open Sans', helvetica;
+	
+}
+.postlink
+{
+	left: 21px;
+	    top: 7px;
+	   
+}
+}
+.tablecontainer
+{
+	background-color:#2e2e2e;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px; /* future proofing */
+	-khtml-border-radius: 20px; /* for old Konqueror browsers */
+
+}
+
+
+.container
+{
+	
+	padding:10px;
+	margin:0 auto;
+	width:900px;
+}
+
+table
+{
+
+	margin:0 auto;
+	
+}
+
+#action
+{
+
+	width:40px;
+}#title
+{
+
+	width:380px;
+}
+
+#created
+{
+	width:85px;
+	font-size:14px;
+}
+h1
+{
+	font-family:Helvetica;
+	text-align:center;
+	
+}
+a,a:visited{
+	
+	color:#232323;
+}
+.tex2
+{
+
+   padding: 20px;
+   margin: 10px;
+   color: #000;
+   font-size: 21px;
+   font-weight: bold;
+   line-height: 1.3em;
+   border: 2px dashed #fff;
+   border-radius: 3px;
+  
+   font-weight: normal;
+}
+
+#tableheader
+{
+	padding-bottom:20px;
+}
+
+.hero-img
+{
+margin: 0 auto;
+width:600px;
+}
+
+.center
+{
+	text-align: center;
+	margin: 0 auto;
+}
+
+tr th
+{
+	padding: 20px;
+}
+
+#action tr th
+{
+	text-align: center;
+}
+
+.btn btn-success
+{
+float:right;
+
+}
+
+#navbarCollapse
+{
+	float:right;
+	padding: 17px;
+	
+}
+
+.wrapper {
+  width: 100%;
+  height: 30px;
+  margin: auto;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.wrapper .popup {
+  position: absolute;
+  bottom: -133px;
+  left: 647px;
+  right: 0;
+  margin: auto;
+  width: 30px;
+  height: 35px;
+  background: #fbfbfb;
+  padding: 10px;
+  opacity: 0;
+  display: none;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+.wrapper .popup:before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background: #fbfbfb;
+  bottom: -8px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.wrapper .popup__inner {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+  font-size: 14px;
+  padding: 15px;
+  text-align: left;
+;
+}
+.wrapper .popup__inner h1 {
+  font-size: 1.6rem;
+  margin: 0;
+  text-align: center;
+}
+
+form
+{
+	margin: auto;
+}
